@@ -81,13 +81,13 @@ html[data-theme="dark"] {
   --ls-link-text-color: var(--violet);
   --ls-link-text-hover-color: var(--violet-hover);
 
-  --ls-link-ref-text-color: var(--green);
-  --ls-link-ref-text-hover-color: var(--green-hover);
-  --ls-block-ref-link-text-color: var(--teal);
+  --ls-link-ref-text-color: var(--teal);
+  --ls-link-ref-text-hover-color: var(--teal-hover);
+  --ls-block-ref-link-text-color: var(--green);
 
-  --ls-tag-text-color: var(--yellow);
+  --ls-tag-text-color: var(--magenta);
   --ls-tag-text-opacity: 1;
-  --ls-tag-text-hover-color: var(--yellow-hover);
+  --ls-tag-text-hover-color: var(--magenta-hover);
 
   --ls-block-bullet-border-color: var(--current-line);
   --ls-block-bullet-color: var(--foreground);
@@ -142,20 +142,20 @@ html[data-theme="dark"] img {
 }
 
 html[data-theme="dark"] .block-ref:hover {
-  color: var(--teal-hover);
-  border-bottom-color: var(--teal-hover);
+  color: var(--green-hover);
+  border-bottom-color: var(--green-hover);
 }
 
 html[data-theme="dark"] .external-link {
-  color: var(--teal);
+  color: var(--blue);
 }
 
 html[data-theme="dark"] .external-link:hover {
-  color: var(--teal-hover);
+  color: var(--blue-hover);
 }
 
 html[data-theme="dark"] .inline i {
-  color: var(--orange);
+  color: var(--purple);
 }
 
 html[data-theme="dark"] .icon i {
@@ -163,7 +163,7 @@ html[data-theme="dark"] .icon i {
 }
 
 html[data-theme="dark"] .inline b {
-  color: var(--magenta);
+  color: var(--red);
 }
 
 html[data-theme="dark"] a.block-marker {
