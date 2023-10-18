@@ -67,9 +67,9 @@ html[data-theme="dark"] {
   --ls-active-secondary-color: var(--foreground);
 
   --ls-primary-text-color: var(--foreground);
-  --ls-secondary-text-color: var(--white-hover);
+  --ls-secondary-text-color: var(--base-500);
 
-  --ls-search-background-color: var(--bg);
+  --ls-search-background-color: var(--bg-alt);
   --ls-border-color: var(--comment);
   --ls-secondary-border-color: var(--ls-border-color);
   --ls-menu-hover-color: var(--base-800);
@@ -99,20 +99,20 @@ html[data-theme="dark"] {
   --ls-page-checkbox-border-color: var(--comment);
 
   --ls-page-blockquote-color: var(--foreground);
-  --ls-page-blockquote-bg-color: var(--base-800);
+  --ls-page-blockquote-bg-color: var(--base-850);
   --ls-page-blockquote-border-color: var(--blue);
 
   --ls-page-inline-code-color: var(--yellow);
   --ls-page-inline-code-bg-color: var(--bg);
 
-  --ls-scrollbar-background-color: var(--base-700);
-  --ls-scrollbar-foreground-color: var(--base-600);
-  --ls-scrollbar-thumb-hover-color: var(--base-800);
+  --ls-scrollbar-background-color: var(--base-800);
+  --ls-scrollbar-foreground-color: var(--base-700);
+  --ls-scrollbar-thumb-hover-color: var(--base-900);
 
   --ls-icon-color: var(--white-hover);
   --ls-search-icon-color: var(--white-hover);
-  --ls-a-chosen-bg: var(--base-800);
-  --ls-right-sidebar-code-bg-color: var(--base-800);
+  --ls-a-chosen-bg: var(--base-850);
+  --ls-right-sidebar-code-bg-color: var(--base-850);
   --ls-selection-background-color: var(--comment);
   --ls-slide-background-color: var(--ls-primary-background-color);
   --ls-guideline-color: var(--ls-border-color);
