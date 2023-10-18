@@ -16,13 +16,6 @@
   --base-50: #F2F0E5;
   --paper: #FFFCF0;
 
-  --bg: var(--black);
-  --bg-alt: var(--base-950);
-
-  --foreground: var(--base-200);
-  --current-line: #44475a;
-  --comment: #6272a4;
-
   --white: var(--paper);
   --white-hover: var(--base-300);
   --grey: var(--base-600);
@@ -37,10 +30,17 @@
   --teal-hover: #3AA99F;
   --blue: #205EA6;
   --blue-hover: #4385BE;
-  --violet: #5E409D;
-  --violet-hover: #8B7EC8;
+  --purple: #5E409D;
+  --purple-hover: #8B7EC8;
   --magenta: #A02F6F;
   --magenta-hover: #CE5D97;
+
+  --bg: var(--black);
+  --bg-alt: var(--base-950);
+
+  --foreground: var(--base-200);
+  --current-line: var(--base-700);
+  --comment: var(--blue-hover);
 
   --ls-tag-text-opacity: 0.8;
   --ls-tag-text-hover-opacity: 0.8;
@@ -59,8 +59,8 @@
 html[data-theme="dark"] {
   --ls-primary-background-color: var(--bg);
   --ls-secondary-background-color: var(--bg-alt);
-  --ls-tertiary-background-color: var(--base-700);
-  --ls-quaternary-background-color: var(--base-800);
+  --ls-tertiary-background-color: var(--base-800);
+  --ls-quaternary-background-color: var(--base-850);
   --ls-quinary-background-color: var(--base-900);
 
   --ls-active-primary-color: var(--foreground);
@@ -78,8 +78,8 @@ html[data-theme="dark"] {
   --ls-head-text-color: var(--foreground);
   --ls-title-text-color: var(--foreground);
 
-  --ls-link-text-color: var(--violet);
-  --ls-link-text-hover-color: var(--violet-hover);
+  --ls-link-text-color: var(--purple);
+  --ls-link-text-hover-color: var(--purple-hover);
 
   --ls-link-ref-text-color: var(--teal);
   --ls-link-ref-text-hover-color: var(--teal-hover);
@@ -138,7 +138,7 @@ body {
 }
 
 html[data-theme="dark"] img {
-  background-color: white;
+  background-color: var(--paper);
 }
 
 html[data-theme="dark"] .block-ref:hover {
@@ -159,7 +159,7 @@ html[data-theme="dark"] .inline i {
 }
 
 html[data-theme="dark"] .icon i {
-  color: white;
+  color: var(--paper);
 }
 
 html[data-theme="dark"] .inline b {
@@ -239,10 +239,10 @@ html[data-theme="dark"] .cm-s-solarized span.cm-comment {
   color: var(--comment);
 }
 html[data-theme="dark"] .cm-s-solarized span.cm-atom {
-  color: var(--violet);
+  color: var(--purple);
 }
 html[data-theme="dark"] .cm-s-solarized span.cm-number {
-  color: var(--violet);
+  color: var(--purple);
 }
 html[data-theme="dark"] .cm-s-solarized span.cm-comment.cm-attribute {
   color: var(--green-hover);
@@ -291,10 +291,10 @@ html[data-theme="dark"] .cm-s-solarized span.cm-tag {
   color: var(--magenta);
 }
 html[data-theme="dark"] .cm-s-solarized span.cm-header {
-  color: var(--violet);
+  color: var(--purple);
 }
 html[data-theme="dark"] .cm-s-solarized span.cm-link {
-  color: var(--violet);
+  color: var(--purple);
 }
 html[data-theme="dark"] .cm-s-solarized span.cm-error {
   background: var(--magenta);
